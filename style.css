@@ -26,7 +26,7 @@ main {
     justify-items: center;
 }
 
-div, sq-r {
+sq-r {
     width: 20vw;
     height: 20vw;
     background: #ffffff;
@@ -58,4 +58,22 @@ div, sq-r {
 
 .sp-green {
     background: #40ffa0;
+}
+
+.colors {
+    margin: 2.5vh auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colors h3 {
+    width: 100%;
+}
+
+.colors span {
+    /* box-shadow: 0 0 2px #ffffff; */
+    display: block;
+    height: 5vh;
+    width: 25px;
 }
