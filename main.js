@@ -19,7 +19,14 @@ class Square extends HTMLElement {
     }
 
     checkCount(count){
-        this.className = ""
+        this.className = "";
+        switch(count){
+            case 1:
+                this.classList.add("red")
+                break
+            default:
+                return
+        }
     }
 }
 

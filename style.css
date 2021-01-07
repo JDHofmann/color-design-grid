@@ -27,7 +27,13 @@ main {
 }
 
 div, sq-r {
-    border: 2px solid #ffffff;
+    /* border: 2px solid #ffffff; */
     width: 27.5vw;
     height: 27.5vw;
+    background: #ffffff;
 }
+
+.red {
+    background: #ff0000;
+}
+
