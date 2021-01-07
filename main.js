@@ -34,7 +34,7 @@ class Square extends HTMLElement {
                 this.classList.add("green")
                 break
             case 5:
-                this.classList.add("navy")
+                this.classList.add("yellow")
                 break
             case 6:
                 this.classList.add("turq")
