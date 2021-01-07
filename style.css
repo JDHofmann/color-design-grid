@@ -18,16 +18,15 @@ p {
 }
 
 main {
-    width: 90vw;
-    margin: 0 auto;
+    width: 60vw;
+    margin: 0 auto 10vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2.5vh 2vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
     justify-items: center;
 }
 
 div, sq-r {
-    /* border: 2px solid #ffffff; */
     width: 20vw;
     height: 20vw;
     background: #ffffff;
