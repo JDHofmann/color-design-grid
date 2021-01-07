@@ -7,7 +7,7 @@ class Square extends HTMLElement {
     connectedCallback(){
         // this.innerHTML = `<div class="a">Hey</div>`;
         this.addEventListener("click", () => {
-            console.log("counter running ", this.count)
+            // console.log("counter running ", this.count)
             if(this.count > 2) {
                 this.count = 0
             } else {
@@ -23,6 +23,9 @@ class Square extends HTMLElement {
         switch(count){
             case 1:
                 this.classList.add("red")
+                break
+            case 2:
+                this.classList.add("yellow")
                 break
             default:
                 return
