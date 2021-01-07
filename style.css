@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #101040;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    margin: 5vh auto;
+}
+
+p {
+    margin: 5vh auto;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5vh 2.5vw;
+    justify-items: center;
+}
+
+div {
+    border: 2px solid #ffffff;
+    width: 27.5vw;
+    height: 27.5vw;
+}
