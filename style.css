@@ -30,6 +30,7 @@ sq-r {
     width: 20vw;
     height: 20vw;
     background: #ffffff;
+    border-radius: 5px;
 }
 
 .red {
@@ -72,8 +73,9 @@ sq-r {
 }
 
 .colors span {
-    /* box-shadow: 0 0 2px #ffffff; */
     display: block;
     height: 5vh;
     width: 25px;
+    border-radius: 5px;
+
 }
