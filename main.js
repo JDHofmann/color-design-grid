@@ -1,19 +1,27 @@
 'use strict';
 
-let squares = document.querySelectorAll("div")
-
-
-squares.forEach(sq => {sq.addEventListener("click", (e) => console.log("clicked me"))
-})
-
-
 class Square extends HTMLElement {
+
+    count = 0;
+
     connectedCallback(){
-        this.innerHTML = `<div>Hey</div>`
+        // this.innerHTML = `<div class="a">Hey</div>`;
+        this.addEventListener("click", () => {
+            console.log("counter running ", this.count)
+            if(this.count > 2) {
+                this.count = 0
+            } else {
+                this.count += 1;
+            }
+            this.checkCount(this.count)
+            console.log(this.count)
+        })
+    }
+
+    checkCount(count){
+        this.className = ""
     }
 }
 
 window.customElements.define('sq-r', Square);
 
-
-// document.querySelector("main").innerHTML = <sq-r></sq-r>
