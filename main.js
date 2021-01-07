@@ -8,7 +8,7 @@ class Square extends HTMLElement {
         // this.innerHTML = `<div class="a">Hey</div>`;
         this.addEventListener("click", () => {
 
-            if(this.count > 3) {
+            if(this.count > 6) {
                 this.count = 0
             } else {
                 this.count += 1;
@@ -25,13 +25,22 @@ class Square extends HTMLElement {
                 this.classList.add("red")
                 break
             case 2:
-                this.classList.add("yellow")
+                this.classList.add("pink")
                 break
             case 3:
-                this.classList.add("green")
+                this.classList.add("blue")
                 break
             case 4:
+                this.classList.add("green")
+                break
+            case 5:
                 this.classList.add("navy")
+                break
+            case 6:
+                this.classList.add("turq")
+                break
+            case 7:
+                this.classList.add("sp-green")
                 break
             default:
                 return

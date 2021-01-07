@@ -34,11 +34,23 @@ div, sq-r {
 }
 
 .red {
-    background: #ff0000;
+    background: #ff4040;
 }
 
 .pink {
     background: #ff0080;
+}
+
+.blue {
+    background: #0080ff;
+}
+
+.turq {
+    background: #00ffff;
+}
+
+.orange {
+    background: #ff8000;
 }
 
 .yellow {
@@ -46,9 +58,9 @@ div, sq-r {
 }
 
 .green {
-    background: #008000;
+    background: #40a040;
 }
 
-.navy {
-    background: #0000ff;
+.sp-green {
+    background: #40ffa0;
 }
